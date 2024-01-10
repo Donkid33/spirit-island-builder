@@ -861,6 +861,7 @@ cost-threshold icon.cost-custom {
 
 threshold-or {
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   text-transform: uppercase;
   font-size: 24px;
   display: inline-block;

@@ -88,6 +88,7 @@ td.middle > presence-node {
 td.middle.bonus::before {
   content: "BONUS:";
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   display: block;
   position: absolute;
   left: 23%;
@@ -494,7 +495,8 @@ track-move-presence move-text {
   position: relative;
   font-size: 28px;
   line-height: 28px;
-  font-family: "NAME HEADINGS";
+  font-family: "Name Headings";
+  transform: scale(1, 0.8);
 }
 
 presence-node-multi {

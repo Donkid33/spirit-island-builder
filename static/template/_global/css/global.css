@@ -35,6 +35,7 @@
 
 @font-face {
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   src: url(../fonts/DKSnemand/DK-Snemand.otf), local("DK Snemand Regular"),
     url(../fonts/Mouse_Memoirs/MouseMemoirs-Regular.ttf);
 }

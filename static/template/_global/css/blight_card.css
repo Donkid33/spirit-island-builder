@@ -56,8 +56,9 @@ blight-card.still-healthy {
 effect-name {
   position: relative;
   display: block;
-  font-size: 29px;
+  font-size: 36px;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   white-space: normal;
   width: inherit;
   line-height: 32px;
@@ -89,6 +90,7 @@ blight-heading {
   font-size: 64px;
   line-height: 32px;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   color: #57544a;
   text-align: center;
   text-transform: uppercase;

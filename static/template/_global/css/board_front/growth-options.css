@@ -565,7 +565,8 @@ move-growth {
 move-growth > textvalue {
   font-size: 28px;
   line-height: 28px;
-  font-family: "NAME HEADINGS";
+  font-family: "Name Headings";
+  transform: scale(1, 0.8);
 }
 
 growth-cell range {
@@ -976,6 +977,7 @@ plus-text::after {
 
 .non-icon {
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   font-size: 26.66px;
   font-style: normal;
   margin: auto;
@@ -1462,6 +1464,7 @@ gain.or {
 
 growth-cell div.custom-scaling {
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   font-size: 37.33px;
   font-style: normal;
 }

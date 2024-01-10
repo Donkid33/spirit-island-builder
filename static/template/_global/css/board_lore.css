@@ -41,15 +41,16 @@ board.round-border {
 
 spirit-name {
   position: absolute;
-  left: 33%;
+  left: 25%;
   top: 6px;
   height: 22.67px;
   width: 900px;
-  font-size: 40pt;
+  font-size: 50pt;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   text-transform: uppercase;
   vertical-align: middle;
-  text-align: left;
+  text-align: center;
   z-index: 1;
   white-space: normal;
 }
@@ -214,8 +215,9 @@ div.summary-of-powers-title {
 .powers-summary tbody tr td {
   width: 120px;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 32px;
   font-weight: bold;
   text-align: center;
 }

@@ -53,7 +53,7 @@ aspect {
 aspect.profile {
   width: 567px;
   height: 786px;
-  padding: 19px 16px 24px 19px;
+  padding: 12px 16px 24px 19px;
   background-image: url("../images/aspect-profile.png");
 }
 
@@ -62,8 +62,9 @@ aspect.round-border {
 }
 
 aspect aspect-name {
-  font-size: 34px;
+  font-size: 43px;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   text-transform: uppercase;
   color: white;
   padding-bottom: 8px;
@@ -245,19 +246,21 @@ aspect-back img {
   left: 35px;
   top: 34px;
   width: 332px;
-  font-size: 35px;
+  font-size: 43px;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   color: white;
   text-align: center;
 }
 
 .aspect-back-name {
   position: absolute;
-  top: 77px;
+  top: 73px;
   left: 35px;
   width: 332px;
-  font-size: 26px;
+  font-size: 33px;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   text-transform: uppercase;
   color: black;
   text-align: center;
@@ -378,7 +381,8 @@ bonus-text {
   top: -32px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 28px;
+  font-size: 35px;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   text-transform: uppercase;
 }

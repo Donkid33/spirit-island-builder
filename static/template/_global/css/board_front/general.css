@@ -68,6 +68,7 @@ spirit-name {
   height: 100px;
   width: 666.25px;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   text-transform: uppercase;
   color: white;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
@@ -176,6 +177,7 @@ none {
 section-title {
   display: block;
   font-family: "Name Headings";
+  transform: scale(1, 0.8);
   text-transform: uppercase;
   font-size: 33.33px;
   padding-top: 10px;
